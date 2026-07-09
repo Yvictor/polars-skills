@@ -26,9 +26,14 @@ codex plugin add polars@polars
 
 ### Cursor
 
-Install from the [Cursor Marketplace](https://cursor.com/marketplace) after
-the Polars plugin is published, or submit this repository through the
-[Cursor publisher flow](https://cursor.com/marketplace/publish) for review.
+Load the local plugin with Cursor Agent CLI:
+
+```bash
+agent --plugin-dir ./polars
+```
+
+For one-click discovery and team distribution, publish the plugin to the
+[Cursor Marketplace](https://cursor.com/marketplace).
 
 ### Multi-platform installers
 
