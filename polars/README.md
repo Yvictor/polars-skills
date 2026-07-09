@@ -21,7 +21,7 @@ library has been specified. It teaches agents to:
 
 ## Installation
 
-**Via marketplace (Claude Code):**
+### Claude Code marketplace
 
 ```
 /plugin marketplace add polars-inc/skills
@@ -31,7 +31,26 @@ library has been specified. It teaches agents to:
 Start a session. The skill loads automatically when a task involves Polars or
 Python data processing. Type `/polars:polars` to invoke it explicitly.
 
-**Manual copy:**
+### Codex marketplace
+
+```bash
+codex plugin marketplace add polars-inc/skills
+codex plugin add polars@polars
+```
+
+### Cursor marketplace
+
+Install from the [Cursor Marketplace](https://cursor.com/marketplace) after
+the Polars plugin is published, or submit this repository through the
+[Cursor publisher flow](https://cursor.com/marketplace/publish) for review.
+
+### Multi-platform installers
+
+```bash
+npx skill install polars-inc/skills
+```
+
+### Manual copy
 
 Copy the `polars/` directory into the skills folder for your agent
 tool. No build step required.
