@@ -1,8 +1,8 @@
 # Polars Skill Marketplace
 
 Official agent skill marketplace for [Polars](https://pola.rs) — the fast
-DataFrame library for Python. Supports Claude Code, Codex, Cursor, and
-multi-platform skill installers.
+DataFrame library for Python. Supports Claude Code, Codex, and multi-platform
+skill installers.
 
 ## Install
 
@@ -24,18 +24,9 @@ codex plugin marketplace add polars-inc/skills
 codex plugin add polars@polars
 ```
 
-### Cursor
-
-Load the local plugin with Cursor Agent CLI:
-
-```bash
-agent --plugin-dir ./polars
-```
-
-For one-click discovery and team distribution, publish the plugin to the
-[Cursor Marketplace](https://cursor.com/marketplace).
-
 ### Multi-platform installers
+
+Use the `npx` installer for Cursor and other agent tools:
 
 ```bash
 npx skill install polars-inc/skills

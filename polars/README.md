@@ -38,18 +38,9 @@ codex plugin marketplace add polars-inc/skills
 codex plugin add polars@polars
 ```
 
-### Cursor marketplace
-
-From the repository root, load the local plugin with Cursor Agent CLI:
-
-```bash
-agent --plugin-dir ./polars
-```
-
-For one-click discovery and team distribution, publish the plugin to the
-[Cursor Marketplace](https://cursor.com/marketplace).
-
 ### Multi-platform installers
+
+Use the `npx` installer for Cursor and other agent tools:
 
 ```bash
 npx skill install polars-inc/skills
@@ -81,12 +72,6 @@ cp -r polars ~/.codex/skills/
 
 # Repo-level
 cp -r polars .codex/skills/
-```
-
-### Cursor
-
-```bash
-cp -r polars .cursor/skills/
 ```
 
 ### GitHub Copilot (VS Code)
